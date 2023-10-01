@@ -22,7 +22,7 @@
     "primeflex": "^3.2.1",
     "primeicons": "^6.0.1",
     "primevue": "^2.10.0",
-    "vue": "^2.7.10",
+    "vue": "^3.3.4",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
