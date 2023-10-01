@@ -31,7 +31,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t jorik2020/nginx-quasar:dev .
+      run: docker build -t jorik2020/nuxt-site:dev .
 
     - name: Push Docker image
-      run: docker push jorik2020/nginx-quasar:dev
+      run: docker push jorik2020/nuxt-site:dev
