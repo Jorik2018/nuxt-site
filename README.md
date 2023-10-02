@@ -77,3 +77,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 https://github.com/nuxt/nuxt/issues/23493
 
+https://blog.logrocket.com/getting-started-drizzle-type-safe-orm/

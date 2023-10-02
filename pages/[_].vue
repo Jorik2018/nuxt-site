@@ -8,16 +8,18 @@ function hello () {
   sayHello(message.value)
 }
 const route = useRoute()
-
-// When accessing /posts/1, route.params.id will be 1
-const params = route.params
+const params = route.params;
+const { data, error } = await useAsyncData(`user:${params._}`, async () => {
+  const result = await $fetch('/api/blog');
+  return {hola:params._,users:result}
+})
 
 </script>
 
 <template>
   <div class="hello">
     Hello Nuxt {{ version }}!
-<div>params={{ params }}</div>
+<div>params={{ data }}</div>
     <form @submit.prevent="hello">
     <h1>Demo with auto imports</h1>
     <CustomInput v-model="message" />
