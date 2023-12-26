@@ -20,7 +20,7 @@
     "vite-plugin-inspect": "0.7.38"
   },
   "dependencies": {
-    "drizzle-orm": "^0.28.6",
+    "drizzle-orm": "^0.29.2",
     "mysql2": "^3.6.1"
   }
 }
