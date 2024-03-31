@@ -19,5 +19,7 @@ EXPOSE 3000
 # Build the Nuxt.js app for production
 RUN npm run build
 
+ENV HOST 0.0.0.0
+
 # Start the Nuxt.js app
 CMD [ "node", ".output/server/index.mjs" ]

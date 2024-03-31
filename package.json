@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "HOST=0.0.0.0 nuxt start",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -13,13 +14,16 @@
     "@nuxt/devtools": "latest",
     "drizzle-kit": "^0.19.13",
     "nuxt": "^3.7.4",
+    "vite-plugin-vuetify": "^2.0.3",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.5.13"
   },
   "overrides": {
     "vite-plugin-inspect": "0.7.38"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "drizzle-orm": "^0.28.6",
     "mysql2": "^3.6.1"
   }

@@ -78,3 +78,11 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 https://github.com/nuxt/nuxt/issues/23493
 
 https://blog.logrocket.com/getting-started-drizzle-type-safe-orm/
+
+
+touch run.sh
+chmod +x run.sh
+
+./run.sh
+
+https://garywoodfine.com/how-to-use-layouts-in-nuxt-3/
